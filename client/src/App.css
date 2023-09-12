@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+:root{
+    /* colores de la pagina */
+    --white: #F7F7F7;
+    --grey: #C7C7B0;
+    --grey-2: #808080;
+    --yellow: #DBD500;
+
+    /* fuentes */
+    --font-1: 'Montserrat', sans-serif;
+    --font-2: 'Nova Mono', monospace;
+
+    /* tamanos de letra escritorio */
+    --name-desktop: 70px;
+    --description-desktop: 30px;
+    --title-desktop: 30px;
+    --subtitle-desktop: 20px;
+    --text-desktop: 15px;
+    --small-text-desktop: 12px;
+    
+    /* tamanos de letra mobile */
+    --name-mobile: 50px;
+    --description-mobile: 30px;
+    --title-mobile: 20px;
+    --subtitle-mobile: 15px;
+    --text-mobile: 10px;
+    --small-text-mobile: 8px;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-1);
 }
