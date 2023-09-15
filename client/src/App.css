@@ -4,6 +4,8 @@
     --grey: #C7C7B0;
     --grey-2: #808080;
     --yellow: #DBD500;
+    --background: #1D1B20;
+    --black: #000000;
 
     /* fuentes */
     --font-1: 'Montserrat', sans-serif;
@@ -14,7 +16,7 @@
     --description-desktop: 30px;
     --title-desktop: 30px;
     --subtitle-desktop: 20px;
-    --text-desktop: 15px;
+    --text-desktop: 13px;
     --small-text-desktop: 12px;
     
     /* tamanos de letra mobile */
@@ -25,13 +27,19 @@
     --text-mobile: 10px;
     --small-text-mobile: 8px;
 
+    
+
+    --padding-left-right: 5%;
 }
 
 body{
     min-width: 100vw;
     min-height: 100vh;
-    background-color: red;
     margin: 0;
     padding: 0;
+    
     font-family: var(--font-1);
+    color: var(--white);
+
+    background-color: var(--background);
 }

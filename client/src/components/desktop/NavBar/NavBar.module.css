@@ -1,0 +1,79 @@
+/*------ Generales */
+.NavBarContainer{
+    backdrop-filter: blur(10px);
+
+    width: 90vw;
+    max-width: 100vw;
+    height: 80px;
+    padding: 0 5vw;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: var(--font-2);
+    font-size: var(--text-desktop);
+
+    z-index: 999;
+}
+
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+}
+
+
+/* ----- Logo */
+.logoContainer{
+    width: 50px;
+    height: 50px;
+    background-image: url('../../../assets/logo1.svg');
+    background-size: cover;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.logoContainer:hover{
+    transform: rotate(180deg); 
+    background-image: url(../../../assets/logo2.svg);
+}
+
+
+/* ----- Lista */
+.ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.li{
+    margin-right: 15px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.li:hover{
+    color: var(--yellow);
+}
+
+.liNumber{
+    color: var(--yellow);
+}
+
+
+/* ----- Boton CV */
+.buttonCV{
+    border: 2px solid var(--yellow);
+    border-radius: 50px;
+    padding: 10px 25px;
+
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.buttonCV:hover{
+    background: var(--yellow);
+    color: var(--background);
+}
