@@ -1,0 +1,76 @@
+.linksConatiner{
+    position: fixed;
+    width: var(--width-links);
+    padding: 0 var(--padding-links);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    bottom: 0;
+
+    z-index: 999;
+
+    font-family: var(--font-2);
+    font-weight: 400;
+    font-size: var(--text-desktop);
+    letter-spacing: 2px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconGithub{
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../assets/github1.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.iconGithub:hover{
+    background-image: url(../../../assets/github2.svg);
+}
+
+.iconLinkedin{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    background-image: url(../../../assets/linkedin1.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.iconLinkedin:hover{
+    background-image: url(../../../assets/linkedin2.svg);
+}
+
+.line{
+    width: 2px;
+    height: 120px;
+    margin-top: 60px;
+    background-image: url(../../../assets/line1.svg);
+    background-repeat: no-repeat;
+}
+
+
+.emailContainer{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.email:hover{
+    color: var(--yellow)
+}

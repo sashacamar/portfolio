@@ -16,7 +16,7 @@
     --description-desktop: 30px;
     --title-desktop: 30px;
     --subtitle-desktop: 20px;
-    --text-desktop: 13px;
+    --text-desktop: 15px;
     --small-text-desktop: 12px;
     
     /* tamanos de letra mobile */
@@ -28,8 +28,15 @@
     --small-text-mobile: 8px;
 
     
+    --width-navbar: 84vw;
+    --padding-navbar: 8vw;
+    
+    --width-links: 82vw;
+    --padding-links: 9vw;
 
-    --padding-left-right: 5%;
+
+    /* tamaños de imagenes */
+    --logo-size: 60px;
 }
 
 body{
