@@ -1,0 +1,94 @@
+.aboutMeContainer{
+    width: 100vw;
+
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* ---------------- Intro */
+.introContainer{
+    padding-top: 180px;
+    padding-bottom: 180px;
+
+    width: 55%;
+    margin: auto;
+}
+
+.greet{
+    font-family: var(--font-2);
+    font-weight: 100;
+    font-size: var(--text-desktop);
+    color: var(--yellow);
+    letter-spacing: 1px;
+}
+
+.name{
+    font-family: var(--font-1);
+    font-weight: 700;
+    font-size: var(--name-desktop);
+    color: var(--white);
+    letter-spacing: 8px;
+
+    margin: 0;
+}
+
+.description{
+    font-family: var(--font-1);
+    font-weight: 100;
+    font-size: var(--description-desktop);
+    color: var(--grey);
+
+}
+
+
+
+/* ---------- Information */
+.infoContainer{
+    width: 55%;
+    margin: auto;
+}
+
+/* ------ ME */
+.me{
+    width: 55%;
+}
+
+.title{
+    text-transform: uppercase;
+    color: var(--grey);
+    font-family: var(--font-1);
+    font-size: var(--title-desktop);
+    font-weight: 600;
+}
+.number{
+    margin-right: 10px;
+    color: var(--yellow);
+    font-family: var(--font-2);
+    font-weight: 100;
+}
+
+.text{
+    width: 80%;
+    margin-bottom: 40px;
+
+    line-height: var(--height-p);
+    color: var(--grey);
+    font-family: var(--font-1);
+    font-weight: 100;
+    font-size: var(--text-desktop);
+}
+.text2{
+    width: 100%;
+}
+.highlight{
+    color: var(--yellow);
+    font-weight: 200;
+}
+
+/* ------- Photo */
+
+
+/* ------- Education */

@@ -11,6 +11,9 @@
     --font-1: 'Montserrat', sans-serif;
     --font-2: 'Nova Mono', monospace;
 
+    /* line-height */
+    --height-p: 1.6;
+
     /* tamanos de letra escritorio */
     --name-desktop: 70px;
     --description-desktop: 30px;
