@@ -1,5 +1,6 @@
 .aboutMeContainer{
     width: 100vw;
+    height: 1800px;
 
     display: block;
     align-items: center;
@@ -71,7 +72,6 @@
 }
 
 .text{
-    width: 80%;
     margin-bottom: 40px;
 
     line-height: var(--height-p);
@@ -80,15 +80,137 @@
     font-weight: 100;
     font-size: var(--text-desktop);
 }
-.text2{
-    width: 100%;
-}
 .highlight{
     color: var(--yellow);
     font-weight: 200;
 }
 
+.languagesContainer{
+    width: 100%;
+    display: flex;
+    color: var(--grey);
+    font-family: var(--font-1);
+    font-weight: 100;
+    font-size: var(--text-desktop);
+}
+.languages{
+    list-style-type: none;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+}
+.item{
+    margin-bottom: 10px;
+}
+.iconList{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+}
+
 /* ------- Photo */
+.linesContainer{
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    left: 0;
+    top: 550px;
+}
+.cover{
+    opacity: 1;
+    position: absolute;
+    z-index: 7;
+    margin-top: 160px;
+    right: 22%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(99, 99, 0, 0.409);
+    border-radius: 100%;
+
+    transition: all 0.4s ease;
+}
+.cover:hover{
+    opacity: 0; 
+    filter: contrast(100%) brightness(100%) saturate(100%);
+}
+
+.photo{
+    position: absolute;
+    z-index: 6;
+    margin-top: 160px;
+    right: 22%;
+    width: 300px;
+    height: 300px;
+    background-image: url(../../../assets/foto1.webp);
+    filter: contrast(140%) brightness(140%) saturate(100%);
+    background-size: 310px;
+    background-position: top -35px right 0px;
+    border-radius: 100%;
+
+    transition: all 0.4s ease;
+}
+.cover:hover + .photo {
+    filter: contrast(100%) brightness(100%) saturate(100%);
+}
+
+.line{
+    position: absolute;
+    right: 15%;
+    top: 130px;
+    z-index: 5;
+    width: 400px;
+    height: 900px;
+    background-image: url(../../../assets/line4.svg);
+    background-repeat: no-repeat;
+}
 
 
 /* ------- Education */
+.studiesContainer{
+    width: 100%;
+}
+
+.studiesTitle{
+    position: absolute;
+    right: 20%;
+    top: 730px;
+}
+
+.card{
+    width: 350px;
+    padding: 20px 40px;
+    background-color: #80808015;
+    display: block;
+    justify-content: center;
+    font-family: var(--font-1);
+}
+.cardTitle{
+    font-size: var(--subtitle-desktop);
+    font-weight: 400;
+    color: var(--grey);
+    margin: 0;
+}
+.cardSubtitle{
+    font-size: var(--small-text-desktop);
+    font-weight: 300;
+    color: var(--yellow);
+    margin: 10px 0;
+}
+.cardText{
+    font-size: var(--small-text-desktop);
+    font-weight: 200;
+    color: var(--grey);
+    margin: 0;
+}
+
+.card1{
+    position: absolute;
+    right: 38%;
+    top: 630px;
+}
+
+.card2{
+    position: absolute;
+    right: 44%;
+    top: 810px;
+}

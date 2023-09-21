@@ -24,25 +24,25 @@ const AboutMe = () => {
                     <div className={styles.languagesContainer}>
                         <ul className={styles.languages}>
                             <li className={styles.item}>
-                                <img src={iconList} alt="*" />
+                                <img className={styles.iconList} src={iconList} alt="*" />
                                 JavaScript (ES6+)
                             </li>
                             <li className={styles.item}>
-                                <img src={iconList} alt="*" />
+                                <img className={styles.iconList} src={iconList} alt="*" />
                                 React.js
                             </li>
                             <li className={styles.item}>
-                                <img src={iconList} alt="*" />
+                                <img className={styles.iconList} src={iconList} alt="*" />
                                 Redux
                             </li>
                         </ul>
                         <ul className={styles.languages}>
                             <li className={styles.item}>
-                                <img src={iconList} alt="*" />
+                                <img className={styles.iconList} src={iconList} alt="*" />
                                 Node.js
                             </li>
                             <li className={styles.item}>
-                                <img src={iconList} alt="*" />
+                                <img className={styles.iconList} src={iconList} alt="*" />
                                 Express
                             </li>
                         </ul>
@@ -50,25 +50,27 @@ const AboutMe = () => {
                 </div>
 
                 <div className={styles.linesContainer}>
+                    <div className={styles.cover}></div>
                     <div className={styles.photo}></div>
                     <div className={styles.line}></div>
+                    
+                    <div className={styles.studiesContainer}>
+                        <h3 className={`${styles.title} ${styles.studiesTitle}`}>Estudios</h3>
+                        <div className={`${styles.card} ${styles.card1}`}>
+                            <h4 className={styles.cardTitle}>Universidad Tecnológica Nacional</h4>
+                            <h5 className={styles.cardSubtitle}>Ingenería en Sistemas de Información</h5>
+                            <h5 className={styles.cardText}>MARZO 2022 - CURSANDO</h5>
+                        </div>
+                        <div className={`${styles.card} ${styles.card2}`}>
+                            <h4 className={styles.cardTitle}>Henry Bootcamp</h4>
+                            <h5 className={styles.cardSubtitle}>Full Stack Developer</h5>
+                            <h5 className={styles.cardText}>ABRIL 2023 - AGOSTO 2023
+                            <br />
+                            <br />+750 horas de cursado teórico-práctico</h5>
+                        </div>
+                    </div>
                 </div>
 
-                <div className={styles.studiesContainer}>
-                    <h3 className={styles.title}>Estudios</h3>
-                    <div className={`${styles.card} ${styles.card1}`}>
-                        <h4 className={styles.cardTitle}>Universidad Tecnológica Nacional</h4>
-                        <h5 className={styles.cardSubtitle}>Ingenería en Sistemas de Información</h5>
-                        <h5 className={styles.cardText}>MARZO 2022 - CURSANDO</h5>
-                    </div>
-                    <div className={`${styles.card} ${styles.card2}`}>
-                        <h4 className={styles.cardTitle}>Henry Bootcamp</h4>
-                        <h5 className={styles.cardSubtitle}>Full Stack Developer</h5>
-                        <h5 className={styles.cardText}>ABRIL 2023 - AGOSTO 2023
-                        <br />
-                        <br />+750 horas de cursado teórico-práctico</h5>
-                    </div>
-                </div>
                 
             </div>
         </div>
