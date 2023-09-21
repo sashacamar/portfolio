@@ -14,9 +14,9 @@ function App() {
     <div >
       <NavBar></NavBar>
       <AboutMe></AboutMe>
+      <Projects></Projects>
       <Contact></Contact>
       <Links></Links>
-      <Projects></Projects>
     </div>
   );
 }

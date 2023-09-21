@@ -1,0 +1,103 @@
+.projectContainer{
+    display: flex;
+    align-items: center;
+
+    height: 400px;
+}
+
+.imgContainer{
+    position: absolute;
+    width: 400px;
+    height: 235px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.cover{
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: rgba(99, 99, 0, 0.409);
+    transition: all 0.4s ease;
+
+}
+.cover:hover{
+    opacity: 0; 
+}
+.img{
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    filter: contrast(150%) brightness(90%) saturate(100%);
+    transition: all 0.4s ease;
+
+}
+.cover:hover + .img {
+    filter: contrast(100%) brightness(100%) saturate(100%);
+    transform: scale(103%);
+}
+
+
+
+
+.info{
+    position: absolute;
+    z-index: 5;
+    margin-left: 350px;
+}
+.title{
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: var(--subtitle-desktop);
+    text-align: end;
+    margin: 0;
+    cursor: pointer;
+}
+
+.descriptionCard{
+    margin-top: 10px;
+    width: 250px;
+    padding: 20px 50px;
+    background-color: var(--background-card);
+    font-size: var(--small-text-desktop);
+    color: var(--grey);
+    font-weight: 100;
+    box-shadow: 11px 9px 20px 0px #000000b3
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.link{
+    width: 23px;
+    height: 25px;
+    background-image: url(../../../assets/link1.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+
+}
+.link:hover{
+    background-image: url(../../../assets/link2.svg);
+}
+.github{
+    margin-right: 10px;
+    width: 23px;
+    height: 25px;
+    background-image: url(../../../assets/github1.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+.github:hover{
+    background-image: url(../../../assets/github2.svg);
+}

@@ -1,0 +1,18 @@
+.projectsContainer{
+    width: 55%;
+    margin: auto;
+}
+
+.title{
+    text-transform: uppercase;
+    color: var(--grey);
+    font-family: var(--font-1);
+    font-size: var(--title-desktop);
+    font-weight: 600;
+}
+.number{
+    margin-right: 10px;
+    color: var(--yellow);
+    font-family: var(--font-2);
+    font-weight: 100;
+}
