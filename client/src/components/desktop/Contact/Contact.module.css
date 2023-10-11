@@ -1,6 +1,10 @@
 .contactContainer{
     width: 55%;
     margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 5;
 }
 
 .title{
@@ -13,9 +17,8 @@
 }
 .subtitle{
     color: var(--grey);
-    font-family: var(--font-2);
-    text-transform: uppercase;
-    font-weight: 100;
+    font-family: var(--font-1);
+    font-weight: 300;
     font-size: var(--title-desktop);
     text-align: center;
     letter-spacing: 2px;
@@ -23,4 +26,75 @@
 
 .info{
     display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+}
+
+.column_title, .column_text, .links, .links a{
+    font-family: var(--font-1);
+    font-weight: 100;
+    font-size: var(--subtitle-desktop);
+    margin: 5px 0;
+}
+.column_title{
+    color: var(--white);
+    text-transform: uppercase;
+}
+.column_text, .links, .links a{
+    color: var(--grey);
+}
+.links a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+.links a:hover{
+    color: var(--yellow);
+}
+
+.greet{
+    width: fit-content;
+    font-family: var(--font-2);
+    font-size: var(--text-desktop);
+    color: var(--grey);
+    font-weight: lighter;
+    border: 2px solid var(--yellow);
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.greet:hover{
+    background-color: var(--yellow);
+    color: var(--background);
+}
+
+
+.navigate{
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+    border-top: 1px solid var(--white);
+    display: flex;
+    justify-content: end;
+}
+.arrowContainer{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid var(--white);
+    border-top: none;
+}
+.arrow{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    mask: url('../../../assets/arrow1.svg');
+    mask-size: 18px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-color: var(--white);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: var(--yellow);
 }
