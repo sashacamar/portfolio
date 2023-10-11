@@ -80,24 +80,35 @@
 .link{
     width: 23px;
     height: 25px;
-    background-image: url(../../../assets/link1.svg);
-    background-size: 20px;
-    background-repeat: no-repeat;
+    mask: url(../../../assets/link1.svg);
+    mask-size: 20px;
+    mask-repeat: no-repeat;
+    background-color: var(--white);
+
     transition: all 0.3s ease;
 
 }
 .link:hover{
-    background-image: url(../../../assets/link2.svg);
+    mask: url(../../../assets/link1.svg);
+    mask-size: 20px;
+    mask-repeat: no-repeat;
+    background-color: var(--yellow);
+
 }
 .github{
     margin-right: 10px;
     width: 23px;
     height: 25px;
-    background-image: url(../../../assets/github1.svg);
-    background-size: 20px;
-    background-repeat: no-repeat;
+    mask: url(../../../assets/github1.svg);
+    mask-size: 20px;
+    mask-repeat: no-repeat;
+    background-color: var(--white);
+
     transition: all 0.3s ease;
 }
 .github:hover{
-    background-image: url(../../../assets/github2.svg);
+    mask: url(../../../assets/github1.svg);
+    mask-size: 20px;
+    mask-repeat: no-repeat;
+    background-color: var(--yellow);
 }

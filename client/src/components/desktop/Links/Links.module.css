@@ -26,35 +26,60 @@
 .iconGithub{
     width: 30px;
     height: 30px;
-    background-image: url(../../../assets/github1.svg);
-    background-repeat: no-repeat;
+    mask: url(../../../assets/github1.svg);
+    mask-size: cover;
+    background-color: var(--white);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .iconGithub:hover{
-    background-image: url(../../../assets/github2.svg);
+    mask: url(../../../assets/github1.svg);
+    mask-size: cover;
+    background-color: var(--yellow);
+
 }
 
 .iconLinkedin{
     width: 30px;
     height: 30px;
     margin-top: 30px;
-    background-image: url(../../../assets/linkedin1.svg);
-    background-repeat: no-repeat;
+    mask: url(../../../assets/linkedin1.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background-color: var(--white);
+
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .iconLinkedin:hover{
-    background-image: url(../../../assets/linkedin2.svg);
+    mask: url(../../../assets/linkedin1.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background-color: var(--yellow);
 }
+
 
 .line{
     width: 2px;
     height: 120px;
     margin-top: 60px;
-    background-image: url(../../../assets/line1.svg);
-    background-repeat: no-repeat;
+    mask: url(../../../assets/line1.svg);
+    mask-repeat: no-repeat;
+    background-color: var(--white);
+
+    transition: all 0.3s ease;
 }
+.icons_imgs:hover + .line{
+    mask: url(../../../assets/line1.svg);
+    mask-repeat: no-repeat;
+    background-color: var(--yellow);
+}
+.email:hover + .line{
+    mask: url(../../../assets/line1.svg);
+    mask-repeat: no-repeat;
+    background-color: var(--yellow);
+}
+
 
 
 .emailContainer{

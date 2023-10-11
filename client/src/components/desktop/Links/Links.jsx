@@ -4,8 +4,10 @@ const Links = () => {
     return (
         <div className={styles.linksConatiner}>
             <div className={styles.icons}>
-                <div className={styles.iconGithub}></div>
-                <div className={styles.iconLinkedin}></div>
+                <div className={styles.icons_imgs}>
+                    <div className={styles.iconGithub}></div>
+                    <div className={styles.iconLinkedin}></div>
+                </div>
                 <div className={styles.line}></div>
             </div>
             <div className={styles.emailContainer}>

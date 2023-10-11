@@ -29,8 +29,14 @@
 .logoContainer{
     width: var(--logo-size);
     height: var(--logo-size);
-    background-image: url('../../../assets/logo1.svg');
+    mask: url('../../../assets/logo1.svg');
+    background-color: var(--white);
+    mask-size: cover;
+
+
+
     background-size: cover;
+    background-repeat: no-repeat;
 
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -38,7 +44,10 @@
 
 .logoContainer:hover{
     transform: rotate(180deg); 
-    background-image: url(../../../assets/logo2.svg);
+    background-color: var(--yellow);
+    mask: url('../../../assets/logo1.svg');
+    mask-size: cover;
+
 }
 
 
