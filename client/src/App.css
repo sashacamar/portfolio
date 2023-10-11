@@ -54,3 +54,6 @@ body{
 
     background-color: var(--background);
 }
+a{
+    text-decoration: none;
+}

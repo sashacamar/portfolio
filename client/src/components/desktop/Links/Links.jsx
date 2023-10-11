@@ -5,13 +5,17 @@ const Links = () => {
         <div className={styles.linksConatiner}>
             <div className={styles.icons}>
                 <div className={styles.icons_imgs}>
-                    <div className={styles.iconGithub}></div>
-                    <div className={styles.iconLinkedin}></div>
+                    <a href='https://github.com/sashacamar' target='_blank'>
+                        <div className={styles.iconGithub}></div>
+                    </a>
+                    <a href='https://www.linkedin.com/in/sasha-camargo/' target='_blank' >
+                        <div className={styles.iconLinkedin}></div>
+                    </a>
                 </div>
                 <div className={styles.line}></div>
             </div>
             <div className={styles.emailContainer}>
-                <div className={styles.email}>sashacamargo@gmail.com</div>
+                <a href="mailto:sashacamargo@gmail.com?subject=Hi Sasha&body=Hola Sasha, nos encantaria contactarnos con vos. Nosotros somos:..." className={styles.email}>sashacamargo@gmail.com</a>
                 <div className={styles.line}></div>
             </div>
         </div>
