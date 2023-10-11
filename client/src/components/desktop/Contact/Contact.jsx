@@ -7,7 +7,7 @@ const Contact = () => {
           top: 0,
           behavior: 'smooth'
         });
-      };
+    };
 
     return (
         <div className={styles.contactContainer}>
@@ -16,7 +16,7 @@ const Contact = () => {
             <div className={styles.info}>
                 <div className={styles.column}>
                     <h4 className={styles.column_title}>CONTACTAME POR</h4>
-                    <h4 className={styles.column_text}>sashacamargo@gmail.com</h4>
+                    <a href="mailto:sashacamargo@gmail.com?subject=Hi Sasha&body=Hola Sasha, nos encantaria contactarnos con vos. Nosotros somos:..." className={styles.column_text}>sashacamargo@gmail.com</a>
                     <h4 className={styles.column_text}>+54 9 1123895328</h4>
                 </div>
                 <div className={styles.column}>
@@ -27,7 +27,7 @@ const Contact = () => {
                     </h4>
                 </div>
             </div>
-            <div className={styles.greet}>Say Hello</div>
+            <a href="mailto:sashacamargo@gmail.com?subject=Hi Sasha&body=Hola Sasha, nos encantaria contactarnos con vos. Nosotros somos:..." className={styles.greet}>Say Hello</a>
             <div className={styles.navigate}>
                 <div className={styles.arrowContainer}>
                     <div onClick={scrollToTop} className={styles.arrow}></div>

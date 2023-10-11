@@ -4,14 +4,14 @@
         "description": "Proyecto grupal desarrollando un e-commerce de E-books.",
         "image":"book_store",
         "link": "https://book-store-client-coral.vercel.app/",
-        "github": ""
+        "github": "https://github.com/SanBran/BookStore-Client"
     },
     {
         "title": "Dogs API",
         "description": "Reordenamiento dinamico en la base de datos, con barra de busqueda y filtros combinados",
         "image":"dogs_app",
         "link": "https://deploy-eta-lime.vercel.app/",
-        "github": ""
+        "github": "https://github.com/sashacamar/Dogs-PI-Henry"
         
     },
     {
@@ -19,13 +19,13 @@
         "description": "Busqueda de personajes de la serie Rick and Morty",
         "image":"rick_and_morty",
         "link": "https://rick-and-morty-olive-chi.vercel.app/",
-        "github": ""
+        "github": "https://github.com/sashacamar/rick_and_morty"
     },
     {
         "title": "Mini juegos",
         "description": "Juega al Piedra Papel o Tijera y El Ahorcado desde el navegador",
         "image":"mini_juegos",
         "link": "https://mini-juegos.vercel.app/",
-        "github": ""
+        "github": "https://github.com/sashacamar/Mini-Juegos"
     }
 ]

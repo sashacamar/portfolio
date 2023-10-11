@@ -32,11 +32,7 @@
     mask: url('../../../assets/logo1.svg');
     background-color: var(--white);
     mask-size: cover;
-
-
-
-    background-size: cover;
-    background-repeat: no-repeat;
+    mask-repeat: no-repeat;
 
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -45,9 +41,6 @@
 .logoContainer:hover{
     transform: rotate(180deg); 
     background-color: var(--yellow);
-    mask: url('../../../assets/logo1.svg');
-    mask-size: cover;
-
 }
 
 
@@ -78,6 +71,7 @@
     border: 2px solid var(--yellow);
     border-radius: 50px;
     padding: 10px 25px;
+    color: var(--white);
 
     cursor: pointer;
     transition: all 0.4s ease-in-out;
@@ -86,4 +80,23 @@
 .buttonCV:hover{
     background: var(--yellow);
     color: var(--background);
+}
+
+
+
+
+/* ------------------------ MODO CLARO -------------------------------------- */
+.logoLight {
+    background-color: var(--yellow);
+}
+.logoLight:hover{
+    background-color: var(--background);
+}
+
+
+.buttonCVLight{
+    color: var(--background);
+}
+.buttonCVLight:hover{
+    color: var(--white);
 }

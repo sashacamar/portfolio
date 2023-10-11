@@ -6,6 +6,9 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+
+    position: relative;
+    z-index: 5;
 }
 
 
@@ -102,6 +105,9 @@
 .item{
     margin-bottom: 10px;
 }
+.item:hover{
+    color: var(--yellow);
+}
 .iconList{
     width: 10px;
     height: 10px;
@@ -141,7 +147,7 @@
     right: 22%;
     width: 300px;
     height: 300px;
-    background-image: url(../../../assets/foto1.webp);
+    background-image: url(../../../assets/foto1.webp);    
     filter: contrast(140%) brightness(140%) saturate(100%);
     background-size: 310px;
     background-position: top -35px right 0px;
@@ -159,9 +165,10 @@
     top: 130px;
     z-index: 5;
     width: 400px;
-    height: 900px;
-    background-image: url(../../../assets/line4.svg);
-    background-repeat: no-repeat;
+    height: 900px;    
+    mask: url(../../../assets/line4.svg);
+    mask-repeat: no-repeat;
+    background-color: var(--yellow);
 }
 
 

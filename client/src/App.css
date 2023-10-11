@@ -50,10 +50,18 @@ body{
     padding: 0;
     
     font-family: var(--font-1);
-    color: var(--white);
-
-    background-color: var(--background);
 }
 a{
     text-decoration: none;
+}
+
+.dark_mode{
+    background-color: var(--background);
+    color: var(--white);
+    transition: all 0.3s ease-in-out;
+}
+.light_mode{
+    background-color: var(--white);
+    color: var(--background);
+    transition: all 0.3s ease-in-out;
 }
